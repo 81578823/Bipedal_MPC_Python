@@ -1,0 +1,42 @@
+[1.040s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/motion/estimation': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/estimation build --build-base /home/wbb/Bipedal_MPC_Python/build/estimation/build install --record /home/wbb/Bipedal_MPC_Python/build/estimation/install.log --single-version-externally-managed install_data
+[1.201s] running egg_info
+[1.202s] creating ../../../build/estimation/estimation.egg-info
+[1.202s] writing ../../../build/estimation/estimation.egg-info/PKG-INFO
+[1.203s] writing dependency_links to ../../../build/estimation/estimation.egg-info/dependency_links.txt
+[1.203s] writing entry points to ../../../build/estimation/estimation.egg-info/entry_points.txt
+[1.203s] writing requirements to ../../../build/estimation/estimation.egg-info/requires.txt
+[1.203s] writing top-level names to ../../../build/estimation/estimation.egg-info/top_level.txt
+[1.203s] writing manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+[1.205s] reading manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+[1.205s] writing manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+[1.206s] running build
+[1.206s] running build_py
+[1.206s] creating /home/wbb/Bipedal_MPC_Python/build/estimation/build
+[1.206s] creating /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib
+[1.206s] creating /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+[1.206s] copying estimation/test.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+[1.207s] copying estimation/test2.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+[1.207s] copying estimation/state_estimation_lkf.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+[1.207s] copying estimation/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+[1.207s] running install
+[1.207s] running install_lib
+[1.208s] creating /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+[1.208s] copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/test.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+[1.208s] copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/test2.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+[1.208s] copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/state_estimation_lkf.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+[1.208s] copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+[1.209s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/test.py to test.cpython-310.pyc
+[1.209s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/test2.py to test2.cpython-310.pyc
+[1.209s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/state_estimation_lkf.py to state_estimation_lkf.cpython-310.pyc
+[1.210s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/__init__.py to __init__.cpython-310.pyc
+[1.210s] running install_data
+[1.210s] creating /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index
+[1.210s] creating /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index/resource_index
+[1.210s] creating /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index/resource_index/packages
+[1.210s] copying resource/estimation -> /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index/resource_index/packages
+[1.210s] copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/estimation/share/estimation
+[1.210s] running install_egg_info
+[1.212s] Copying ../../../build/estimation/estimation.egg-info to /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation-0.0.0-py3.10.egg-info
+[1.212s] running install_scripts
+[1.225s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/estimation/install.log'
+[1.249s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/motion/estimation' returned '0': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/estimation build --build-base /home/wbb/Bipedal_MPC_Python/build/estimation/build install --record /home/wbb/Bipedal_MPC_Python/build/estimation/install.log --single-version-externally-managed install_data

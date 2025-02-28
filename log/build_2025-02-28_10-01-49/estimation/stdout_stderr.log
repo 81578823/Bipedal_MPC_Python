@@ -1,0 +1,18 @@
+running egg_info
+writing ../../../build/estimation/estimation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/estimation/estimation.egg-info/dependency_links.txt
+writing entry points to ../../../build/estimation/estimation.egg-info/entry_points.txt
+writing requirements to ../../../build/estimation/estimation.egg-info/requires.txt
+writing top-level names to ../../../build/estimation/estimation.egg-info/top_level.txt
+reading manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/estimation/estimation.egg-info to /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/estimation/install.log'

@@ -1,0 +1,96 @@
+[0.703s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/core': PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/wbb/Bipedal_MPC_Python/build/core/build install --record /home/wbb/Bipedal_MPC_Python/build/core/install.log --single-version-externally-managed install_data
+[0.842s] running egg_info
+[0.843s] creating ../../build/core/core.egg-info
+[0.843s] writing ../../build/core/core.egg-info/PKG-INFO
+[0.843s] writing dependency_links to ../../build/core/core.egg-info/dependency_links.txt
+[0.843s] writing entry points to ../../build/core/core.egg-info/entry_points.txt
+[0.843s] writing requirements to ../../build/core/core.egg-info/requires.txt
+[0.843s] writing top-level names to ../../build/core/core.egg-info/top_level.txt
+[0.844s] writing manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[0.845s] reading manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[0.845s] writing manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[0.845s] running build
+[0.846s] running build_py
+[0.846s] creating /home/wbb/Bipedal_MPC_Python/build/core/build
+[0.846s] creating /home/wbb/Bipedal_MPC_Python/build/core/build/lib
+[0.846s] creating /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core
+[0.846s] copying core/types.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core
+[0.846s] copying core/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core
+[0.846s] creating /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory
+[0.846s] copying core/trajectory/trajectory_base.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory
+[0.846s] copying core/trajectory/cubic_spline_trajectory.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory
+[0.846s] copying core/trajectory/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory
+[0.846s] copying core/trajectory/reference_buffer.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory
+[0.847s] copying core/trajectory/cubic_spline_interpolation.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory
+[0.847s] creating /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/test.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/lookup.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/numerics.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/benchmark.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/numeric_traits.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/linear_algebra.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] copying core/misc/buffer.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc
+[0.847s] creating /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait
+[0.847s] copying core/gait/test.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait
+[0.847s] copying core/gait/mode_schedule.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait
+[0.847s] copying core/gait/motion_phase_definition.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait
+[0.847s] copying core/gait/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait
+[0.848s] copying core/gait/leg_logic.py -> /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait
+[0.848s] running install
+[0.848s] running install_lib
+[0.848s] creating /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core
+[0.848s] creating /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory
+[0.848s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory/trajectory_base.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory
+[0.848s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory/cubic_spline_trajectory.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory
+[0.848s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory
+[0.848s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory/reference_buffer.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory
+[0.848s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/trajectory/cubic_spline_interpolation.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory
+[0.848s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/types.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core
+[0.848s] creating /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/test.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/lookup.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/numerics.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/benchmark.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/numeric_traits.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/linear_algebra.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/misc/buffer.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc
+[0.849s] creating /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait/test.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait/mode_schedule.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait/motion_phase_definition.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/gait/leg_logic.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait
+[0.849s] copying /home/wbb/Bipedal_MPC_Python/build/core/build/lib/core/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core
+[0.850s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory/trajectory_base.py to trajectory_base.cpython-310.pyc
+[0.850s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory/cubic_spline_trajectory.py to cubic_spline_trajectory.cpython-310.pyc
+[0.850s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory/__init__.py to __init__.cpython-310.pyc
+[0.850s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory/reference_buffer.py to reference_buffer.cpython-310.pyc
+[0.850s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/trajectory/cubic_spline_interpolation.py to cubic_spline_interpolation.cpython-310.pyc
+[0.853s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/types.py to types.cpython-310.pyc
+[0.854s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/test.py to test.cpython-310.pyc
+[0.854s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/lookup.py to lookup.cpython-310.pyc
+[0.855s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/numerics.py to numerics.cpython-310.pyc
+[0.855s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/benchmark.py to benchmark.cpython-310.pyc
+[0.855s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/numeric_traits.py to numeric_traits.cpython-310.pyc
+[0.855s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/__init__.py to __init__.cpython-310.pyc
+[0.856s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/linear_algebra.py to linear_algebra.cpython-310.pyc
+[0.857s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/misc/buffer.py to buffer.cpython-310.pyc
+[0.857s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait/test.py to test.cpython-310.pyc
+[0.857s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait/mode_schedule.py to mode_schedule.cpython-310.pyc
+[0.858s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait/motion_phase_definition.py to motion_phase_definition.cpython-310.pyc
+[0.858s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait/__init__.py to __init__.cpython-310.pyc
+[0.858s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/gait/leg_logic.py to leg_logic.cpython-310.pyc
+[0.858s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core/__init__.py to __init__.cpython-310.pyc
+[0.858s] running install_data
+[0.858s] creating /home/wbb/Bipedal_MPC_Python/install/core/share/ament_index
+[0.858s] creating /home/wbb/Bipedal_MPC_Python/install/core/share/ament_index/resource_index
+[0.858s] creating /home/wbb/Bipedal_MPC_Python/install/core/share/ament_index/resource_index/packages
+[0.859s] copying resource/core -> /home/wbb/Bipedal_MPC_Python/install/core/share/ament_index/resource_index/packages
+[0.859s] copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/core/share/core
+[0.859s] running install_egg_info
+[0.860s] Copying ../../build/core/core.egg-info to /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core-0.0.0-py3.10.egg-info
+[0.860s] running install_scripts
+[0.873s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/core/install.log'
+[0.889s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/core' returned '0': PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/wbb/Bipedal_MPC_Python/build/core/build install --record /home/wbb/Bipedal_MPC_Python/build/core/install.log --single-version-externally-managed install_data

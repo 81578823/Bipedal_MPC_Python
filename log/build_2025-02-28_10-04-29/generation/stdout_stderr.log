@@ -1,0 +1,24 @@
+running egg_info
+writing ../../../build/generation/generation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/generation/generation.egg-info/dependency_links.txt
+writing entry points to ../../../build/generation/generation.egg-info/entry_points.txt
+writing requirements to ../../../build/generation/generation.egg-info/requires.txt
+writing top-level names to ../../../build/generation/generation.egg-info/top_level.txt
+reading manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying generation/convex_mpc.back.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/convex_mpc.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+running install
+running install_lib
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.back.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.back.py to convex_mpc.back.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.py to convex_mpc.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/generation/generation.egg-info to /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/generation/install.log'

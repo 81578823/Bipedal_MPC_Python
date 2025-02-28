@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/assets/assets.egg-info
+writing ../../build/assets/assets.egg-info/PKG-INFO
+writing dependency_links to ../../build/assets/assets.egg-info/dependency_links.txt
+writing entry points to ../../build/assets/assets.egg-info/entry_points.txt
+writing requirements to ../../build/assets/assets.egg-info/requires.txt
+writing top-level names to ../../build/assets/assets.egg-info/top_level.txt
+writing manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+reading manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+writing manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+copying share/assets/p1/PF_A1.xml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+copying share/assets/p1/config.yaml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+copying share/assets/p1/PF_A.urdf -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+copying share/assets/p1/PF_A.xml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+creating /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/foot_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/abad_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/foot_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/abad_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/foot_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/knee_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/base_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/abad_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/base_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/hip_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/knee_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/foot_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/hip_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/abad_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/hip_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/hip_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/knee_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying share/assets/p1/meshes/knee_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets
+running install_egg_info
+Copying ../../build/assets/assets.egg-info to /home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages/assets-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/assets/install.log'

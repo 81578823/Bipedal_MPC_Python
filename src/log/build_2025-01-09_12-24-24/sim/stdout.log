@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/sim/sim.egg-info
+writing ../build/sim/sim.egg-info/PKG-INFO
+writing dependency_links to ../build/sim/sim.egg-info/dependency_links.txt
+writing entry points to ../build/sim/sim.egg-info/entry_points.txt
+writing requirements to ../build/sim/sim.egg-info/requires.txt
+writing top-level names to ../build/sim/sim.egg-info/top_level.txt
+writing manifest file '../build/sim/sim.egg-info/SOURCES.txt'
+reading manifest file '../build/sim/sim.egg-info/SOURCES.txt'
+writing manifest file '../build/sim/sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wbb/ros2_ws/src/build/sim/build
+creating /home/wbb/ros2_ws/src/build/sim/build/lib
+creating /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+copying sim/simulate.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+copying sim/sim.launch.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+copying sim/sim_publisher.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+copying sim/main_sim.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+copying sim/__init__.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+running install
+running install_lib
+creating /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/simulate.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/sim.launch.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/sim_publisher.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/main_sim.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/__init__.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/simulate.py to simulate.cpython-310.pyc
+byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/sim.launch.py to sim.launch.cpython-310.pyc
+byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/sim_publisher.py to sim_publisher.cpython-310.pyc
+byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/main_sim.py to main_sim.cpython-310.pyc
+byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wbb/ros2_ws/src/install/sim/share/sim/launch
+copying launch/sim.launch.py -> /home/wbb/ros2_ws/src/install/sim/share/sim/launch
+copying package.xml -> /home/wbb/ros2_ws/src/install/sim/share/sim
+running install_egg_info
+Copying ../build/sim/sim.egg-info to /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing main_sim script to /home/wbb/ros2_ws/src/install/sim/lib/sim
+writing list of installed files to '/home/wbb/ros2_ws/src/build/sim/install.log'

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/third_party/third_party.egg-info
+writing ../../build/third_party/third_party.egg-info/PKG-INFO
+writing dependency_links to ../../build/third_party/third_party.egg-info/dependency_links.txt
+writing entry points to ../../build/third_party/third_party.egg-info/entry_points.txt
+writing requirements to ../../build/third_party/third_party.egg-info/requires.txt
+writing top-level names to ../../build/third_party/third_party.egg-info/top_level.txt
+writing manifest file '../../build/third_party/third_party.egg-info/SOURCES.txt'
+reading manifest file '../../build/third_party/third_party.egg-info/SOURCES.txt'
+writing manifest file '../../build/third_party/third_party.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wbb/Bipedal_MPC_Python/build/third_party/build
+creating /home/wbb/Bipedal_MPC_Python/build/third_party/build/lib
+creating /home/wbb/Bipedal_MPC_Python/build/third_party/build/lib/third_party
+copying third_party/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/third_party/build/lib/third_party
+running install
+running install_lib
+creating /home/wbb/Bipedal_MPC_Python/install/third_party/lib/python3.10/site-packages/third_party
+copying /home/wbb/Bipedal_MPC_Python/build/third_party/build/lib/third_party/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/third_party/lib/python3.10/site-packages/third_party
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/third_party/lib/python3.10/site-packages/third_party/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wbb/Bipedal_MPC_Python/install/third_party/share/ament_index
+creating /home/wbb/Bipedal_MPC_Python/install/third_party/share/ament_index/resource_index
+creating /home/wbb/Bipedal_MPC_Python/install/third_party/share/ament_index/resource_index/packages
+copying resource/third_party -> /home/wbb/Bipedal_MPC_Python/install/third_party/share/ament_index/resource_index/packages
+copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/third_party/share/third_party
+running install_egg_info
+Copying ../../build/third_party/third_party.egg-info to /home/wbb/Bipedal_MPC_Python/install/third_party/lib/python3.10/site-packages/third_party-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/third_party/install.log'

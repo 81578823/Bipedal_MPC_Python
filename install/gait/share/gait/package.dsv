@@ -1,0 +1,6 @@
+source;share/gait/hook/pythonpath.ps1
+source;share/gait/hook/pythonpath.dsv
+source;share/gait/hook/pythonpath.sh
+source;share/gait/hook/ament_prefix_path.ps1
+source;share/gait/hook/ament_prefix_path.dsv
+source;share/gait/hook/ament_prefix_path.sh

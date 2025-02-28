@@ -1,0 +1,16 @@
+running egg_info
+writing ../../build/assets/assets.egg-info/PKG-INFO
+writing dependency_links to ../../build/assets/assets.egg-info/dependency_links.txt
+writing entry points to ../../build/assets/assets.egg-info/entry_points.txt
+writing requirements to ../../build/assets/assets.egg-info/requires.txt
+writing top-level names to ../../build/assets/assets.egg-info/top_level.txt
+reading manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+writing manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+running install_egg_info
+removing '/home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages/assets-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/assets/assets.egg-info to /home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages/assets-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/assets/install.log'

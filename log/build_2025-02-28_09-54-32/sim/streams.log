@@ -1,0 +1,41 @@
+[1.037s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/sim': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim build --build-base /home/wbb/Bipedal_MPC_Python/build/sim/build install --record /home/wbb/Bipedal_MPC_Python/build/sim/install.log --single-version-externally-managed install_data
+[1.179s] running egg_info
+[1.179s] creating ../../build/sim/sim.egg-info
+[1.179s] writing ../../build/sim/sim.egg-info/PKG-INFO
+[1.179s] writing dependency_links to ../../build/sim/sim.egg-info/dependency_links.txt
+[1.179s] writing entry points to ../../build/sim/sim.egg-info/entry_points.txt
+[1.179s] writing requirements to ../../build/sim/sim.egg-info/requires.txt
+[1.180s] writing top-level names to ../../build/sim/sim.egg-info/top_level.txt
+[1.180s] writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.181s] reading manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.182s] writing manifest file '../../build/sim/sim.egg-info/SOURCES.txt'
+[1.182s] running build
+[1.182s] running build_py
+[1.183s] creating /home/wbb/Bipedal_MPC_Python/build/sim/build
+[1.183s] creating /home/wbb/Bipedal_MPC_Python/build/sim/build/lib
+[1.183s] creating /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim
+[1.183s] copying sim/simulate.py -> /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim
+[1.184s] copying sim/sim_publisher.py -> /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim
+[1.184s] copying sim/main_sim.py -> /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim
+[1.184s] copying sim/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim
+[1.184s] running install
+[1.184s] running install_lib
+[1.184s] creating /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim
+[1.185s] copying /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim/simulate.py -> /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim
+[1.185s] copying /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim/sim_publisher.py -> /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim
+[1.185s] copying /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim/main_sim.py -> /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim
+[1.185s] copying /home/wbb/Bipedal_MPC_Python/build/sim/build/lib/sim/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim
+[1.186s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim/simulate.py to simulate.cpython-310.pyc
+[1.186s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim/sim_publisher.py to sim_publisher.cpython-310.pyc
+[1.186s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim/main_sim.py to main_sim.cpython-310.pyc
+[1.187s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim/__init__.py to __init__.cpython-310.pyc
+[1.187s] running install_data
+[1.187s] creating /home/wbb/Bipedal_MPC_Python/install/sim/share/sim/launch
+[1.187s] copying launch/sim.launch.py -> /home/wbb/Bipedal_MPC_Python/install/sim/share/sim/launch
+[1.188s] copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/sim/share/sim
+[1.188s] running install_egg_info
+[1.189s] Copying ../../build/sim/sim.egg-info to /home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info
+[1.189s] running install_scripts
+[1.202s] Installing main_sim script to /home/wbb/Bipedal_MPC_Python/install/sim/lib/sim
+[1.202s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/sim/install.log'
+[1.234s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/sim' returned '0': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/sim/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim build --build-base /home/wbb/Bipedal_MPC_Python/build/sim/build install --record /home/wbb/Bipedal_MPC_Python/build/sim/install.log --single-version-externally-managed install_data

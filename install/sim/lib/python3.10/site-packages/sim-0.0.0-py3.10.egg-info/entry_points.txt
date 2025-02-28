@@ -1,0 +1,3 @@
+[console_scripts]
+main_sim = sim.main_sim:main
+

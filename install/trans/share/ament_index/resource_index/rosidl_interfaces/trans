@@ -1,0 +1,12 @@
+msg/ActuatorCmds.idl
+msg/TouchSensor.idl
+msgs/ActuatorCmds.msg
+msgs/TouchSensor.msg
+srv/GaitSwitch.idl
+srv/GaitSwitch.srv
+srv/GaitSwitch_Request.msg
+srv/GaitSwitch_Response.msg
+srv/SimulationReset.idl
+srv/SimulationReset.srv
+srv/SimulationReset_Request.msg
+srv/SimulationReset_Response.msg

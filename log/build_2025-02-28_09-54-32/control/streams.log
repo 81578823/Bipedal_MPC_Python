@@ -1,0 +1,42 @@
+[0.454s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/motion/control': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:/home/wbb/Bipedal_MPC_Python/install/assets:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control build --build-base /home/wbb/Bipedal_MPC_Python/build/control/build install --record /home/wbb/Bipedal_MPC_Python/build/control/install.log --single-version-externally-managed install_data
+[0.594s] running egg_info
+[0.594s] creating ../../../build/control/control.egg-info
+[0.594s] writing ../../../build/control/control.egg-info/PKG-INFO
+[0.594s] writing dependency_links to ../../../build/control/control.egg-info/dependency_links.txt
+[0.594s] writing entry points to ../../../build/control/control.egg-info/entry_points.txt
+[0.594s] writing requirements to ../../../build/control/control.egg-info/requires.txt
+[0.595s] writing top-level names to ../../../build/control/control.egg-info/top_level.txt
+[0.595s] writing manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+[0.597s] reading manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+[0.597s] writing manifest file '../../../build/control/control.egg-info/SOURCES.txt'
+[0.597s] running build
+[0.597s] running build_py
+[0.597s] creating /home/wbb/Bipedal_MPC_Python/build/control/build
+[0.597s] creating /home/wbb/Bipedal_MPC_Python/build/control/build/lib
+[0.597s] creating /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control
+[0.598s] copying control/trajectory_stabilization.py -> /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control
+[0.598s] copying control/matrix_db.py -> /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control
+[0.598s] copying control/whole_body_controller.py -> /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control
+[0.598s] copying control/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control
+[0.598s] running install
+[0.598s] running install_lib
+[0.598s] creating /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control
+[0.598s] copying /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control/trajectory_stabilization.py -> /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control
+[0.598s] copying /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control/matrix_db.py -> /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control
+[0.598s] copying /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control/whole_body_controller.py -> /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control
+[0.598s] copying /home/wbb/Bipedal_MPC_Python/build/control/build/lib/control/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control
+[0.598s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control/trajectory_stabilization.py to trajectory_stabilization.cpython-310.pyc
+[0.599s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control/matrix_db.py to matrix_db.cpython-310.pyc
+[0.600s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control/whole_body_controller.py to whole_body_controller.cpython-310.pyc
+[0.604s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+[0.604s] running install_data
+[0.604s] creating /home/wbb/Bipedal_MPC_Python/install/control/share/ament_index
+[0.604s] creating /home/wbb/Bipedal_MPC_Python/install/control/share/ament_index/resource_index
+[0.604s] creating /home/wbb/Bipedal_MPC_Python/install/control/share/ament_index/resource_index/packages
+[0.605s] copying resource/control -> /home/wbb/Bipedal_MPC_Python/install/control/share/ament_index/resource_index/packages
+[0.605s] copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/control/share/control
+[0.605s] running install_egg_info
+[0.605s] Copying ../../../build/control/control.egg-info to /home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[0.605s] running install_scripts
+[0.618s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/control/install.log'
+[0.632s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/motion/control' returned '0': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:/home/wbb/Bipedal_MPC_Python/install/assets:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/control/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/control build --build-base /home/wbb/Bipedal_MPC_Python/build/control/build install --record /home/wbb/Bipedal_MPC_Python/build/control/install.log --single-version-externally-managed install_data

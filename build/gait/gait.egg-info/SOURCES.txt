@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/gait/gait.egg-info/PKG-INFO
+../../../build/gait/gait.egg-info/SOURCES.txt
+../../../build/gait/gait.egg-info/dependency_links.txt
+../../../build/gait/gait.egg-info/entry_points.txt
+../../../build/gait/gait.egg-info/requires.txt
+../../../build/gait/gait.egg-info/top_level.txt
+../../../build/gait/gait.egg-info/zip-safe
+gait/__init__.py
+gait/cycle_timer.py
+gait/gait_schedule.py
+resource/gait
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,6 @@
+source;share/estimation/hook/pythonpath.ps1
+source;share/estimation/hook/pythonpath.dsv
+source;share/estimation/hook/pythonpath.sh
+source;share/estimation/hook/ament_prefix_path.ps1
+source;share/estimation/hook/ament_prefix_path.dsv
+source;share/estimation/hook/ament_prefix_path.sh

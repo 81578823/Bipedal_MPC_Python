@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "trans__py",
+		"source" : "/home/wbb/Bipedal_MPC_Python/build/trans/trans__py"
+	}
+}

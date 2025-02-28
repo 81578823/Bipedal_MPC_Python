@@ -1,0 +1,9 @@
+{
+  "package_name": "trans",
+  "non_idl_tuples": [
+    "/home/wbb/Bipedal_MPC_Python/src/trans:msgs/ActuatorCmds.msg",
+    "/home/wbb/Bipedal_MPC_Python/src/trans:msgs/TouchSensor.msg",
+    "/home/wbb/Bipedal_MPC_Python/src/trans:srv/SimulationReset.srv",
+    "/home/wbb/Bipedal_MPC_Python/src/trans:srv/GaitSwitch.srv"
+  ]
+}

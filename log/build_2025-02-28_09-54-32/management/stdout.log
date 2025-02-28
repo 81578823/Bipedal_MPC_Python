@@ -1,0 +1,49 @@
+running egg_info
+creating ../../../build/management/management.egg-info
+writing ../../../build/management/management.egg-info/PKG-INFO
+writing dependency_links to ../../../build/management/management.egg-info/dependency_links.txt
+writing entry points to ../../../build/management/management.egg-info/entry_points.txt
+writing requirements to ../../../build/management/management.egg-info/requires.txt
+writing top-level names to ../../../build/management/management.egg-info/top_level.txt
+writing manifest file '../../../build/management/management.egg-info/SOURCES.txt'
+reading manifest file '../../../build/management/management.egg-info/SOURCES.txt'
+writing manifest file '../../../build/management/management.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wbb/Bipedal_MPC_Python/build/management/build
+creating /home/wbb/Bipedal_MPC_Python/build/management/build/lib
+creating /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+copying management/main.py -> /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+copying management/joystick.py -> /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+copying management/test.py -> /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+copying management/data_visualization.py -> /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+copying management/initialization.py -> /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+copying management/motion_manager.py -> /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+copying management/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management
+running install
+running install_lib
+creating /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+copying /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management/main.py -> /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+copying /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management/joystick.py -> /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+copying /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management/test.py -> /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+copying /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management/data_visualization.py -> /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+copying /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management/initialization.py -> /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+copying /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management/motion_manager.py -> /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+copying /home/wbb/Bipedal_MPC_Python/build/management/build/lib/management/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management/main.py to main.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management/joystick.py to joystick.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management/test.py to test.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management/data_visualization.py to data_visualization.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management/initialization.py to initialization.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management/motion_manager.py to motion_manager.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wbb/Bipedal_MPC_Python/install/management/share/management/launch
+copying launch/management.launch.py -> /home/wbb/Bipedal_MPC_Python/install/management/share/management/launch
+copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/management/share/management
+running install_egg_info
+Copying ../../../build/management/management.egg-info to /home/wbb/Bipedal_MPC_Python/install/management/lib/python3.10/site-packages/management-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joystick script to /home/wbb/Bipedal_MPC_Python/install/management/lib/management
+Installing main script to /home/wbb/Bipedal_MPC_Python/install/management/lib/management
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/management/install.log'

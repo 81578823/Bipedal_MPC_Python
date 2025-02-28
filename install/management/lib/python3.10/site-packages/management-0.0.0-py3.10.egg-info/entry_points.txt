@@ -1,0 +1,4 @@
+[console_scripts]
+joystick = management.joystick:JoyStick
+main = management.main:main
+

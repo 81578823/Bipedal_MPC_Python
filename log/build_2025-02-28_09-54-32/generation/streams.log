@@ -1,0 +1,63 @@
+[1.204s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/motion/generation': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/generation build --build-base /home/wbb/Bipedal_MPC_Python/build/generation/build install --record /home/wbb/Bipedal_MPC_Python/build/generation/install.log --single-version-externally-managed install_data
+[1.359s] running egg_info
+[1.360s] creating ../../../build/generation/generation.egg-info
+[1.360s] writing ../../../build/generation/generation.egg-info/PKG-INFO
+[1.360s] writing dependency_links to ../../../build/generation/generation.egg-info/dependency_links.txt
+[1.360s] writing entry points to ../../../build/generation/generation.egg-info/entry_points.txt
+[1.360s] writing requirements to ../../../build/generation/generation.egg-info/requires.txt
+[1.360s] writing top-level names to ../../../build/generation/generation.egg-info/top_level.txt
+[1.361s] writing manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+[1.362s] reading manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+[1.362s] writing manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+[1.362s] running build
+[1.362s] running build_py
+[1.362s] creating /home/wbb/Bipedal_MPC_Python/build/generation/build
+[1.363s] creating /home/wbb/Bipedal_MPC_Python/build/generation/build/lib
+[1.363s] creating /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/test.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/convex_mpc.back2.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/test2.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/convex_mpc.back.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/pinocchio_interface.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/convex_mpc.back3.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/convex_mpc.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/trajectory_generation.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/foothold_optimization.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] copying generation/test3.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+[1.363s] running install
+[1.364s] running install_lib
+[1.364s] creating /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/test.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.back2.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/test2.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.back.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/pinocchio_interface.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.back3.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/trajectory_generation.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/foothold_optimization.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/test3.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+[1.364s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/test.py to test.cpython-310.pyc
+[1.365s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.back2.py to convex_mpc.back2.cpython-310.pyc
+[1.367s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/test2.py to test2.cpython-310.pyc
+[1.367s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.back.py to convex_mpc.back.cpython-310.pyc
+[1.369s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/pinocchio_interface.py to pinocchio_interface.cpython-310.pyc
+[1.370s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.back3.py to convex_mpc.back3.cpython-310.pyc
+[1.372s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.py to convex_mpc.cpython-310.pyc
+[1.374s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/trajectory_generation.py to trajectory_generation.cpython-310.pyc
+[1.374s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/__init__.py to __init__.cpython-310.pyc
+[1.374s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/foothold_optimization.py to foothold_optimization.cpython-310.pyc
+[1.375s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/test3.py to test3.cpython-310.pyc
+[1.375s] running install_data
+[1.375s] creating /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index
+[1.375s] creating /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index/resource_index
+[1.375s] creating /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index/resource_index/packages
+[1.376s] copying resource/generation -> /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index/resource_index/packages
+[1.376s] copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/generation/share/generation
+[1.376s] running install_egg_info
+[1.377s] Copying ../../../build/generation/generation.egg-info to /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation-0.0.0-py3.10.egg-info
+[1.377s] running install_scripts
+[1.390s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/generation/install.log'
+[1.412s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/motion/generation' returned '0': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/generation build --build-base /home/wbb/Bipedal_MPC_Python/build/generation/build install --record /home/wbb/Bipedal_MPC_Python/build/generation/install.log --single-version-externally-managed install_data

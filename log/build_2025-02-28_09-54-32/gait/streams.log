@@ -1,0 +1,39 @@
+[1.054s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/motion/gait': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/gait/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/gait build --build-base /home/wbb/Bipedal_MPC_Python/build/gait/build install --record /home/wbb/Bipedal_MPC_Python/build/gait/install.log --single-version-externally-managed install_data
+[1.202s] running egg_info
+[1.203s] creating ../../../build/gait/gait.egg-info
+[1.203s] writing ../../../build/gait/gait.egg-info/PKG-INFO
+[1.203s] writing dependency_links to ../../../build/gait/gait.egg-info/dependency_links.txt
+[1.203s] writing entry points to ../../../build/gait/gait.egg-info/entry_points.txt
+[1.203s] writing requirements to ../../../build/gait/gait.egg-info/requires.txt
+[1.204s] writing top-level names to ../../../build/gait/gait.egg-info/top_level.txt
+[1.204s] writing manifest file '../../../build/gait/gait.egg-info/SOURCES.txt'
+[1.204s] reading manifest file '../../../build/gait/gait.egg-info/SOURCES.txt'
+[1.204s] writing manifest file '../../../build/gait/gait.egg-info/SOURCES.txt'
+[1.204s] running build
+[1.206s] running build_py
+[1.206s] creating /home/wbb/Bipedal_MPC_Python/build/gait/build
+[1.206s] creating /home/wbb/Bipedal_MPC_Python/build/gait/build/lib
+[1.206s] creating /home/wbb/Bipedal_MPC_Python/build/gait/build/lib/gait
+[1.206s] copying gait/gait_schedule.py -> /home/wbb/Bipedal_MPC_Python/build/gait/build/lib/gait
+[1.206s] copying gait/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/gait/build/lib/gait
+[1.206s] copying gait/cycle_timer.py -> /home/wbb/Bipedal_MPC_Python/build/gait/build/lib/gait
+[1.206s] running install
+[1.206s] running install_lib
+[1.206s] creating /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait
+[1.206s] copying /home/wbb/Bipedal_MPC_Python/build/gait/build/lib/gait/gait_schedule.py -> /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait
+[1.206s] copying /home/wbb/Bipedal_MPC_Python/build/gait/build/lib/gait/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait
+[1.207s] copying /home/wbb/Bipedal_MPC_Python/build/gait/build/lib/gait/cycle_timer.py -> /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait
+[1.207s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait/gait_schedule.py to gait_schedule.cpython-310.pyc
+[1.207s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait/__init__.py to __init__.cpython-310.pyc
+[1.207s] byte-compiling /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait/cycle_timer.py to cycle_timer.cpython-310.pyc
+[1.208s] running install_data
+[1.208s] creating /home/wbb/Bipedal_MPC_Python/install/gait/share/ament_index
+[1.208s] creating /home/wbb/Bipedal_MPC_Python/install/gait/share/ament_index/resource_index
+[1.208s] creating /home/wbb/Bipedal_MPC_Python/install/gait/share/ament_index/resource_index/packages
+[1.208s] copying resource/gait -> /home/wbb/Bipedal_MPC_Python/install/gait/share/ament_index/resource_index/packages
+[1.208s] copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/gait/share/gait
+[1.208s] running install_egg_info
+[1.209s] Copying ../../../build/gait/gait.egg-info to /home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages/gait-0.0.0-py3.10.egg-info
+[1.209s] running install_scripts
+[1.223s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/gait/install.log'
+[1.257s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/motion/gait' returned '0': AMENT_PREFIX_PATH=/home/wbb/Bipedal_MPC_Python/install/core:${AMENT_PREFIX_PATH} PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/gait/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/gait/lib/python3.10/site-packages:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/gait build --build-base /home/wbb/Bipedal_MPC_Python/build/gait/build install --record /home/wbb/Bipedal_MPC_Python/build/gait/install.log --single-version-externally-managed install_data

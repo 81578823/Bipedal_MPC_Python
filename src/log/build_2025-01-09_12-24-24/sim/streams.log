@@ -1,0 +1,44 @@
+[0.323s] Invoking command in '/home/wbb/ros2_ws/src/sim': PYTHONPATH=/home/wbb/ros2_ws/src/build/sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sim build --build-base /home/wbb/ros2_ws/src/build/sim/build install --record /home/wbb/ros2_ws/src/build/sim/install.log --single-version-externally-managed install_data
+[0.451s] running egg_info
+[0.451s] creating ../build/sim/sim.egg-info
+[0.451s] writing ../build/sim/sim.egg-info/PKG-INFO
+[0.451s] writing dependency_links to ../build/sim/sim.egg-info/dependency_links.txt
+[0.452s] writing entry points to ../build/sim/sim.egg-info/entry_points.txt
+[0.452s] writing requirements to ../build/sim/sim.egg-info/requires.txt
+[0.452s] writing top-level names to ../build/sim/sim.egg-info/top_level.txt
+[0.452s] writing manifest file '../build/sim/sim.egg-info/SOURCES.txt'
+[0.453s] reading manifest file '../build/sim/sim.egg-info/SOURCES.txt'
+[0.453s] writing manifest file '../build/sim/sim.egg-info/SOURCES.txt'
+[0.453s] running build
+[0.453s] running build_py
+[0.453s] creating /home/wbb/ros2_ws/src/build/sim/build
+[0.454s] creating /home/wbb/ros2_ws/src/build/sim/build/lib
+[0.454s] creating /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+[0.454s] copying sim/simulate.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+[0.454s] copying sim/sim.launch.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+[0.454s] copying sim/sim_publisher.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+[0.454s] copying sim/main_sim.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+[0.454s] copying sim/__init__.py -> /home/wbb/ros2_ws/src/build/sim/build/lib/sim
+[0.454s] running install
+[0.454s] running install_lib
+[0.454s] creating /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+[0.454s] copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/simulate.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+[0.454s] copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/sim.launch.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+[0.454s] copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/sim_publisher.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+[0.454s] copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/main_sim.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+[0.454s] copying /home/wbb/ros2_ws/src/build/sim/build/lib/sim/__init__.py -> /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim
+[0.455s] byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/simulate.py to simulate.cpython-310.pyc
+[0.455s] byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/sim.launch.py to sim.launch.cpython-310.pyc
+[0.455s] byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/sim_publisher.py to sim_publisher.cpython-310.pyc
+[0.456s] byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/main_sim.py to main_sim.cpython-310.pyc
+[0.457s] byte-compiling /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim/__init__.py to __init__.cpython-310.pyc
+[0.457s] running install_data
+[0.457s] creating /home/wbb/ros2_ws/src/install/sim/share/sim/launch
+[0.457s] copying launch/sim.launch.py -> /home/wbb/ros2_ws/src/install/sim/share/sim/launch
+[0.457s] copying package.xml -> /home/wbb/ros2_ws/src/install/sim/share/sim
+[0.457s] running install_egg_info
+[0.458s] Copying ../build/sim/sim.egg-info to /home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages/sim-0.0.0-py3.10.egg-info
+[0.458s] running install_scripts
+[0.470s] Installing main_sim script to /home/wbb/ros2_ws/src/install/sim/lib/sim
+[0.470s] writing list of installed files to '/home/wbb/ros2_ws/src/build/sim/install.log'
+[0.483s] Invoked command in '/home/wbb/ros2_ws/src/sim' returned '0': PYTHONPATH=/home/wbb/ros2_ws/src/build/sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/ros2_ws/src/install/sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sim build --build-base /home/wbb/ros2_ws/src/build/sim/build install --record /home/wbb/ros2_ws/src/build/sim/install.log --single-version-externally-managed install_data

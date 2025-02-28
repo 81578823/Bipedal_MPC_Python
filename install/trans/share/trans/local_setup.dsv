@@ -1,0 +1,4 @@
+source;share/trans/environment/ament_prefix_path.sh
+source;share/trans/environment/library_path.sh
+source;share/trans/environment/path.sh
+source;share/trans/environment/pythonpath.sh

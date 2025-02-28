@@ -1,0 +1,4 @@
+/home/wbb/Bipedal_MPC_Python/build/trans/rosidl_adapter/trans:msg/ActuatorCmds.idl
+/home/wbb/Bipedal_MPC_Python/build/trans/rosidl_adapter/trans:msg/TouchSensor.idl
+/home/wbb/Bipedal_MPC_Python/build/trans/rosidl_adapter/trans:srv/SimulationReset.idl
+/home/wbb/Bipedal_MPC_Python/build/trans/rosidl_adapter/trans:srv/GaitSwitch.idl

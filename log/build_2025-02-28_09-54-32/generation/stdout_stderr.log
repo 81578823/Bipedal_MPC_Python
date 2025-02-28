@@ -1,0 +1,61 @@
+running egg_info
+creating ../../../build/generation/generation.egg-info
+writing ../../../build/generation/generation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/generation/generation.egg-info/dependency_links.txt
+writing entry points to ../../../build/generation/generation.egg-info/entry_points.txt
+writing requirements to ../../../build/generation/generation.egg-info/requires.txt
+writing top-level names to ../../../build/generation/generation.egg-info/top_level.txt
+writing manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+reading manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/generation/generation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wbb/Bipedal_MPC_Python/build/generation/build
+creating /home/wbb/Bipedal_MPC_Python/build/generation/build/lib
+creating /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/test.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/convex_mpc.back2.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/test2.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/convex_mpc.back.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/pinocchio_interface.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/convex_mpc.back3.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/convex_mpc.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/trajectory_generation.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/foothold_optimization.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+copying generation/test3.py -> /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation
+running install
+running install_lib
+creating /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/test.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.back2.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/test2.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.back.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/pinocchio_interface.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.back3.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/convex_mpc.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/trajectory_generation.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/foothold_optimization.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+copying /home/wbb/Bipedal_MPC_Python/build/generation/build/lib/generation/test3.py -> /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/test.py to test.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.back2.py to convex_mpc.back2.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/test2.py to test2.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.back.py to convex_mpc.back.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/pinocchio_interface.py to pinocchio_interface.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.back3.py to convex_mpc.back3.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/convex_mpc.py to convex_mpc.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/trajectory_generation.py to trajectory_generation.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/foothold_optimization.py to foothold_optimization.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation/test3.py to test3.cpython-310.pyc
+running install_data
+creating /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index
+creating /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index/resource_index
+creating /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index/resource_index/packages
+copying resource/generation -> /home/wbb/Bipedal_MPC_Python/install/generation/share/ament_index/resource_index/packages
+copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/generation/share/generation
+running install_egg_info
+Copying ../../../build/generation/generation.egg-info to /home/wbb/Bipedal_MPC_Python/install/generation/lib/python3.10/site-packages/generation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/generation/install.log'

@@ -1,0 +1,338 @@
+[0.457s] Invoking command in '/home/wbb/Bipedal_MPC_Python/build/trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake /home/wbb/Bipedal_MPC_Python/src/trans -DCMAKE_INSTALL_PREFIX=/home/wbb/Bipedal_MPC_Python/install/trans
+[0.589s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.665s] -- Detecting C compiler ABI info
+[0.738s] -- Detecting C compiler ABI info - done
+[0.745s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.745s] -- Detecting C compile features
+[0.745s] -- Detecting C compile features - done
+[0.747s] -- Detecting CXX compiler ABI info
+[0.827s] -- Detecting CXX compiler ABI info - done
+[0.832s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.832s] -- Detecting CXX compile features
+[0.832s] -- Detecting CXX compile features - done
+[0.836s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.989s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.067s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.093s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.097s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.103s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.142s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.152s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.163s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.175s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.423s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.118s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.121s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.151s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.151s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.152s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.152s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.177s] -- Found PythonExtra: .so  
+[2.252s] -- Configuring done
+[2.287s] -- Generating done
+[2.297s] -- Build files have been written to: /home/wbb/Bipedal_MPC_Python/build/trans
+[2.309s] Invoked command in '/home/wbb/Bipedal_MPC_Python/build/trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake /home/wbb/Bipedal_MPC_Python/src/trans -DCMAKE_INSTALL_PREFIX=/home/wbb/Bipedal_MPC_Python/install/trans
+[2.310s] Invoking command in '/home/wbb/Bipedal_MPC_Python/build/trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --build /home/wbb/Bipedal_MPC_Python/build/trans -- -j16 -l16
+[2.350s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.361s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.366s] [  3%] Built target ament_cmake_python_copy_trans
+[2.517s] running egg_info
+[2.517s] creating trans.egg-info
+[2.518s] writing trans.egg-info/PKG-INFO
+[2.518s] writing dependency_links to trans.egg-info/dependency_links.txt
+[2.518s] writing top-level names to trans.egg-info/top_level.txt
+[2.519s] writing manifest file 'trans.egg-info/SOURCES.txt'
+[2.520s] reading manifest file 'trans.egg-info/SOURCES.txt'
+[2.520s] writing manifest file 'trans.egg-info/SOURCES.txt'
+[2.540s] [  3%] Built target ament_cmake_python_build_trans_egg
+[2.635s] [  3%] Built target trans__cpp
+[2.641s] [  5%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_c.dir/rosidl_generator_c/trans/msg/detail/actuator_cmds__functions.c.o[0m
+[2.642s] [  9%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_c.dir/rosidl_generator_c/trans/srv/detail/simulation_reset__functions.c.o[0m
+[2.642s] [  9%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_c.dir/rosidl_generator_c/trans/msg/detail/touch_sensor__functions.c.o[0m
+[2.642s] [ 10%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_c.dir/rosidl_generator_c/trans/srv/detail/gait_switch__functions.c.o[0m
+[2.643s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.643s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.647s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.707s] [ 18%] [32m[1mLinking C shared library libtrans__rosidl_generator_c.so[0m
+[2.747s] [ 18%] Built target trans__rosidl_generator_c
+[2.760s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.760s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.760s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.863s] [ 25%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trans/msg/actuator_cmds__type_support.cpp.o[0m
+[2.863s] [ 27%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trans/msg/touch_sensor__type_support.cpp.o[0m
+[2.863s] [ 29%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trans/srv/simulation_reset__type_support.cpp.o[0m
+[2.864s] [ 30%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trans/srv/gait_switch__type_support.cpp.o[0m
+[2.878s] [ 32%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trans/srv/detail/simulation_reset__type_support.cpp.o[0m
+[2.878s] [ 34%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trans/srv/detail/gait_switch__type_support.cpp.o[0m
+[2.881s] [ 38%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trans/msg/detail/actuator_cmds__type_support.cpp.o[0m
+[2.881s] [ 38%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trans/msg/detail/touch_sensor__type_support.cpp.o[0m
+[2.935s] [ 41%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trans/msg/detail/dds_fastrtps/touch_sensor__type_support.cpp.o[0m
+[2.935s] [ 41%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trans/msg/detail/dds_fastrtps/actuator_cmds__type_support.cpp.o[0m
+[2.936s] [ 43%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trans/srv/detail/dds_fastrtps/gait_switch__type_support.cpp.o[0m
+[2.939s] [ 45%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trans/srv/detail/dds_fastrtps/simulation_reset__type_support.cpp.o[0m
+[3.078s] [ 47%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_c.dir/rosidl_typesupport_c/trans/msg/touch_sensor__type_support.cpp.o[0m
+[3.078s] [ 49%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_c.dir/rosidl_typesupport_c/trans/msg/actuator_cmds__type_support.cpp.o[0m
+[3.092s] [ 50%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_c.dir/rosidl_typesupport_c/trans/srv/simulation_reset__type_support.cpp.o[0m
+[3.117s] [ 52%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_c.dir/rosidl_typesupport_c/trans/srv/gait_switch__type_support.cpp.o[0m
+[3.144s] [ 54%] [32m[1mLinking CXX shared library libtrans__rosidl_typesupport_c.so[0m
+[3.152s] [ 61%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trans/srv/detail/gait_switch__type_support_c.cpp.o[0m
+[3.153s] [ 61%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trans/msg/detail/touch_sensor__type_support_c.cpp.o[0m
+[3.153s] [ 61%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trans/msg/detail/actuator_cmds__type_support_c.cpp.o[0m
+[3.153s] [ 61%] [32mBuilding CXX object CMakeFiles/trans__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trans/srv/detail/simulation_reset__type_support_c.cpp.o[0m
+[3.183s] [ 63%] [32m[1mLinking CXX shared library libtrans__rosidl_typesupport_cpp.so[0m
+[3.191s] [ 63%] Built target trans__rosidl_typesupport_c
+[3.237s] [ 63%] Built target trans__rosidl_typesupport_cpp
+[3.267s] [ 67%] [32mBuilding C object CMakeFiles/trans__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trans/msg/detail/actuator_cmds__type_support.c.o[0m
+[3.267s] [ 67%] [32mBuilding C object CMakeFiles/trans__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trans/msg/detail/touch_sensor__type_support.c.o[0m
+[3.268s] [ 69%] [32mBuilding C object CMakeFiles/trans__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trans/srv/detail/gait_switch__type_support.c.o[0m
+[3.269s] [ 70%] [32mBuilding C object CMakeFiles/trans__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trans/srv/detail/simulation_reset__type_support.c.o[0m
+[3.327s] [ 72%] [32m[1mLinking C shared library libtrans__rosidl_typesupport_introspection_c.so[0m
+[3.356s] [ 72%] Built target trans__rosidl_typesupport_introspection_c
+[3.406s] [ 74%] [32m[1mLinking CXX shared library libtrans__rosidl_typesupport_introspection_cpp.so[0m
+[3.450s] [ 76%] [32m[1mLinking CXX shared library libtrans__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.470s] [ 76%] Built target trans__rosidl_typesupport_introspection_cpp
+[3.483s] [ 78%] [32m[1mLinking CXX shared library libtrans__rosidl_typesupport_fastrtps_c.so[0m
+[3.510s] [ 78%] Built target trans__rosidl_typesupport_fastrtps_cpp
+[3.541s] [ 78%] Built target trans__rosidl_typesupport_fastrtps_c
+[3.565s] [ 78%] Built target trans
+[3.587s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.985s] [ 80%] Built target trans__py
+[4.008s] [ 81%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_py.dir/rosidl_generator_py/trans/msg/_touch_sensor_s.c.o[0m
+[4.008s] [ 85%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_py.dir/rosidl_generator_py/trans/srv/_simulation_reset_s.c.o[0m
+[4.008s] [ 85%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_py.dir/rosidl_generator_py/trans/msg/_actuator_cmds_s.c.o[0m
+[4.009s] [ 87%] [32mBuilding C object CMakeFiles/trans__rosidl_generator_py.dir/rosidl_generator_py/trans/srv/_gait_switch_s.c.o[0m
+[4.102s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/trans/libtrans__rosidl_generator_py.so[0m
+[4.145s] [ 89%] Built target trans__rosidl_generator_py
+[4.166s] [ 90%] [32mBuilding C object CMakeFiles/trans__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trans/_trans_s.ep.rosidl_typesupport_c.c.o[0m
+[4.166s] [ 92%] [32mBuilding C object CMakeFiles/trans__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trans/_trans_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.168s] [ 94%] [32mBuilding C object CMakeFiles/trans__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trans/_trans_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.244s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/trans/trans_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.244s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/trans/trans_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.249s] [100%] [32m[1mLinking C shared library rosidl_generator_py/trans/trans_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.282s] [100%] Built target trans__rosidl_typesupport_c__pyext
+[4.282s] [100%] Built target trans__rosidl_typesupport_introspection_c__pyext
+[4.287s] [100%] Built target trans__rosidl_typesupport_fastrtps_c__pyext
+[4.295s] Invoked command in '/home/wbb/Bipedal_MPC_Python/build/trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --build /home/wbb/Bipedal_MPC_Python/build/trans -- -j16 -l16
+[4.297s] Invoking command in '/home/wbb/Bipedal_MPC_Python/build/trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --install /home/wbb/Bipedal_MPC_Python/build/trans
+[4.305s] -- Install configuration: ""
+[4.305s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/ament_index/resource_index/rosidl_interfaces/trans
+[4.305s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans
+[4.305s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg
+[4.305s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail
+[4.305s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__functions.c
+[4.305s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__functions.h
+[4.305s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__struct.h
+[4.306s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__functions.h
+[4.306s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__type_support.h
+[4.306s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__type_support.h
+[4.306s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__functions.c
+[4.306s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__struct.h
+[4.306s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/actuator_cmds.h
+[4.306s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/rosidl_generator_c__visibility_control.h
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/touch_sensor.h
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__type_support.h
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__functions.h
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__type_support.h
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__functions.c
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__functions.h
+[4.307s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__functions.c
+[4.308s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__struct.h
+[4.308s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__struct.h
+[4.308s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/simulation_reset.h
+[4.308s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/gait_switch.h
+[4.308s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/library_path.sh
+[4.308s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/library_path.dsv
+[4.308s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_generator_c.so
+[4.308s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_generator_c.so" to ""
+[4.308s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans
+[4.308s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg
+[4.309s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail
+[4.309s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__rosidl_typesupport_fastrtps_c.h
+[4.309s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__rosidl_typesupport_fastrtps_c.h
+[4.309s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.309s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv
+[4.309s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail
+[4.309s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__rosidl_typesupport_fastrtps_c.h
+[4.309s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__rosidl_typesupport_fastrtps_c.h
+[4.309s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_fastrtps_c.so
+[4.309s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_fastrtps_c.so" to ""
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__type_support.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__struct.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__traits.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__builder.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__struct.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__builder.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__traits.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__type_support.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/touch_sensor.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/actuator_cmds.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__builder.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__type_support.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__struct.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__traits.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__type_support.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__struct.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__traits.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__builder.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/simulation_reset.hpp
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/gait_switch.hpp
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg
+[4.310s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/dds_fastrtps
+[4.310s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/dds_fastrtps
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_fastrtps_cpp.so
+[4.311s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__type_support.c
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__type_support.c
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__rosidl_typesupport_introspection_c.h
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__rosidl_typesupport_introspection_c.h
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__rosidl_typesupport_introspection_c.h
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__rosidl_typesupport_introspection_c.h
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__type_support.c
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__type_support.c
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_introspection_c.so
+[4.311s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_introspection_c.so" to ""
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_c.so
+[4.311s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_c.so" to ""
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__rosidl_typesupport_introspection_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__rosidl_typesupport_introspection_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/actuator_cmds__type_support.cpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/msg/detail/touch_sensor__type_support.cpp
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv
+[4.311s] -- Up-to-date: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__type_support.cpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/simulation_reset__rosidl_typesupport_introspection_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__rosidl_typesupport_introspection_cpp.hpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/include/trans/trans/srv/detail/gait_switch__type_support.cpp
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_introspection_cpp.so
+[4.311s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_introspection_cpp.so" to ""
+[4.311s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_cpp.so
+[4.311s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_typesupport_cpp.so" to ""
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/pythonpath.sh
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/pythonpath.dsv
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans-0.0.0-py3.10.egg-info
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans-0.0.0-py3.10.egg-info/PKG-INFO
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans-0.0.0-py3.10.egg-info/top_level.txt
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/_trans_s.ep.rosidl_typesupport_introspection_c.c
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/libtrans__rosidl_generator_py.so
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/_trans_s.ep.rosidl_typesupport_c.c
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/_trans_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/_touch_sensor.py
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/_touch_sensor_s.c
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/_actuator_cmds.py
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/__init__.py
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/_actuator_cmds_s.c
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/__init__.py
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/_simulation_reset.py
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/_gait_switch.py
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/_gait_switch_s.c
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/_simulation_reset_s.c
+[4.312s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/__init__.py
+[4.338s] Listing '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans'...
+[4.338s] Compiling '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/__init__.py'...
+[4.338s] Listing '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg'...
+[4.338s] Compiling '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/__init__.py'...
+[4.338s] Compiling '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/_actuator_cmds.py'...
+[4.338s] Compiling '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/msg/_touch_sensor.py'...
+[4.338s] Listing '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv'...
+[4.338s] Compiling '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/__init__.py'...
+[4.338s] Compiling '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/_gait_switch.py'...
+[4.338s] Compiling '/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/srv/_simulation_reset.py'...
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.341s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.341s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.341s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/local/lib/python3.10/dist-packages/trans/trans_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_generator_py.so
+[4.341s] -- Set runtime path of "/home/wbb/Bipedal_MPC_Python/install/trans/lib/libtrans__rosidl_generator_py.so" to ""
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/msg/ActuatorCmds.idl
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/msg/TouchSensor.idl
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/SimulationReset.idl
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/GaitSwitch.idl
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/msgs/ActuatorCmds.msg
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/msgs/TouchSensor.msg
+[4.341s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/SimulationReset.srv
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/SimulationReset_Request.msg
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/SimulationReset_Response.msg
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/GaitSwitch.srv
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/GaitSwitch_Request.msg
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/srv/GaitSwitch_Response.msg
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/ament_index/resource_index/package_run_dependencies/trans
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/ament_index/resource_index/parent_prefix_path/trans
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/ament_prefix_path.sh
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/ament_prefix_path.dsv
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/path.sh
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/environment/path.dsv
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/local_setup.bash
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/local_setup.sh
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/local_setup.zsh
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/local_setup.dsv
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/package.dsv
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/ament_index/resource_index/packages/trans
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_generator_cExport.cmake
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_generator_cExport-noconfig.cmake
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_typesupport_fastrtps_cExport.cmake
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_generator_cppExport.cmake
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.342s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_introspection_cExport.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_cExport.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_cExport-noconfig.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_introspection_cppExport.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_cppExport.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/trans__rosidl_typesupport_cppExport-noconfig.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_generator_pyExport.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/export_trans__rosidl_generator_pyExport-noconfig.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/rosidl_cmake-extras.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/ament_cmake_export_libraries-extras.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/ament_cmake_export_targets-extras.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/transConfig.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/cmake/transConfig-version.cmake
+[4.343s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/trans/share/trans/package.xml
+[4.345s] Invoked command in '/home/wbb/Bipedal_MPC_Python/build/trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --install /home/wbb/Bipedal_MPC_Python/build/trans

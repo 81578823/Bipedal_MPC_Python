@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b5dc0051480d17602454.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "trans__py",
+					"jsonFile" : "directory-trans__py-78523b169774a77fefab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/wbb/Bipedal_MPC_Python/build/trans/trans__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "trans",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_trans_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_trans_egg-00d32c5d84d7c6cb0eef.json",
+					"name" : "ament_cmake_python_build_trans_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_trans::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_trans-5fb0ba4377182ec38fd7.json",
+					"name" : "ament_cmake_python_copy_trans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans-99b29f137b3f5dfd081d.json",
+					"name" : "trans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__cpp-a2445cf74f705caaf9ac.json",
+					"name" : "trans__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trans__py::@f0e9afc015482787e64b",
+					"jsonFile" : "target-trans__py-61d320997ec1600640eb.json",
+					"name" : "trans__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_generator_c-77b9ef66203db1db4aae.json",
+					"name" : "trans__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_generator_py-07874367172ede687900.json",
+					"name" : "trans__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_c-5c38391bd11f5ea17296.json",
+					"name" : "trans__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_c__pyext-b7e0f98c74fd755729d8.json",
+					"name" : "trans__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_cpp-b98016444bc47428d917.json",
+					"name" : "trans__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_fastrtps_c-aa68ae35176e04577ca2.json",
+					"name" : "trans__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_fastrtps_c__pyext-5425104796792286418d.json",
+					"name" : "trans__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_fastrtps_cpp-8947cd8a35def72f766c.json",
+					"name" : "trans__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_introspection_c-821338b123bbda58bd05.json",
+					"name" : "trans__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_introspection_c__pyext-b5e1d9ce16bb2907bf6e.json",
+					"name" : "trans__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans__rosidl_typesupport_introspection_cpp-637c4d1a7e007dd770c4.json",
+					"name" : "trans__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trans_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trans_uninstall-ec8a73048b18d7de9702.json",
+					"name" : "trans_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e1b250dd617fda7494bd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wbb/Bipedal_MPC_Python/build/trans",
+		"source" : "/home/wbb/Bipedal_MPC_Python/src/trans"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

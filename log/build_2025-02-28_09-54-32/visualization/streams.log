@@ -1,0 +1,46 @@
+[0.457s] Invoking command in '/home/wbb/Bipedal_MPC_Python/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake /home/wbb/Bipedal_MPC_Python/src/visualization -DCMAKE_INSTALL_PREFIX=/home/wbb/Bipedal_MPC_Python/install/visualization
+[0.586s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.663s] -- Detecting C compiler ABI info
+[0.732s] -- Detecting C compiler ABI info - done
+[0.739s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.739s] -- Detecting C compile features
+[0.740s] -- Detecting C compile features - done
+[0.743s] -- Detecting CXX compiler ABI info
+[0.823s] -- Detecting CXX compiler ABI info - done
+[0.831s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.831s] -- Detecting CXX compile features
+[0.831s] -- Detecting CXX compile features - done
+[0.834s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.012s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.130s] -- Configuring done
+[1.131s] -- Generating done
+[1.132s] -- Build files have been written to: /home/wbb/Bipedal_MPC_Python/build/visualization
+[1.682s] Invoked command in '/home/wbb/Bipedal_MPC_Python/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake /home/wbb/Bipedal_MPC_Python/src/visualization -DCMAKE_INSTALL_PREFIX=/home/wbb/Bipedal_MPC_Python/install/visualization
+[1.682s] Invoking command in '/home/wbb/Bipedal_MPC_Python/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --build /home/wbb/Bipedal_MPC_Python/build/visualization -- -j16 -l16
+[1.866s] Invoked command in '/home/wbb/Bipedal_MPC_Python/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --build /home/wbb/Bipedal_MPC_Python/build/visualization -- -j16 -l16
+[1.878s] Invoking command in '/home/wbb/Bipedal_MPC_Python/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --install /home/wbb/Bipedal_MPC_Python/build/visualization
+[1.887s] -- Install configuration: ""
+[1.887s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/launch
+[1.887s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/launch/a1_vis_launch.py
+[1.887s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/launch/aliengo_vis_launch.py
+[1.887s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/config
+[1.888s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/config/config.rviz
+[1.888s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/config/atlas_config.rviz
+[1.888s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/config/spot_config.rviz
+[1.888s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/ament_index/resource_index/package_run_dependencies/visualization
+[1.888s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/ament_index/resource_index/parent_prefix_path/visualization
+[1.889s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/environment/ament_prefix_path.sh
+[1.889s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/environment/ament_prefix_path.dsv
+[1.889s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/environment/path.sh
+[1.889s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/environment/path.dsv
+[1.889s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/local_setup.bash
+[1.889s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/local_setup.sh
+[1.890s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/local_setup.zsh
+[1.890s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/local_setup.dsv
+[1.890s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/package.dsv
+[1.890s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/ament_index/resource_index/packages/visualization
+[1.890s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/cmake/visualizationConfig.cmake
+[1.891s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/cmake/visualizationConfig-version.cmake
+[1.891s] -- Installing: /home/wbb/Bipedal_MPC_Python/install/visualization/share/visualization/package.xml
+[1.894s] Invoked command in '/home/wbb/Bipedal_MPC_Python/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wbb/ros2_ws/install/third_party:/home/wbb/ros2_ws/install/sim:/home/wbb/ros2_ws/install/management:/home/wbb/ros2_ws/install/generation:/home/wbb/ros2_ws/install/gait:/home/wbb/ros2_ws/install/estimation:/home/wbb/ros2_ws/install/control:/home/wbb/ros2_ws/install/core:/home/wbb/ros2_ws/install/assets:/opt/ros/humble /usr/bin/cmake --install /home/wbb/Bipedal_MPC_Python/build/visualization

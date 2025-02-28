@@ -1,0 +1,12 @@
+setup.py
+trans/__init__.py
+trans.egg-info/PKG-INFO
+trans.egg-info/SOURCES.txt
+trans.egg-info/dependency_links.txt
+trans.egg-info/top_level.txt
+trans/msg/__init__.py
+trans/msg/_actuator_cmds.py
+trans/msg/_touch_sensor.py
+trans/srv/__init__.py
+trans/srv/_gait_switch.py
+trans/srv/_simulation_reset.py

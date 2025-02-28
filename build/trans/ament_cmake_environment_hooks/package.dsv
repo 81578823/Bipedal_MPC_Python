@@ -1,0 +1,4 @@
+source;share/trans/local_setup.bash
+source;share/trans/local_setup.dsv
+source;share/trans/local_setup.sh
+source;share/trans/local_setup.zsh

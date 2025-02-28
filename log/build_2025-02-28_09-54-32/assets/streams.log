@@ -1,0 +1,44 @@
+[0.722s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/assets': PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/assets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assets build --build-base /home/wbb/Bipedal_MPC_Python/build/assets/build install --record /home/wbb/Bipedal_MPC_Python/build/assets/install.log --single-version-externally-managed install_data
+[0.902s] running egg_info
+[0.903s] creating ../../build/assets/assets.egg-info
+[0.903s] writing ../../build/assets/assets.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../build/assets/assets.egg-info/dependency_links.txt
+[0.903s] writing entry points to ../../build/assets/assets.egg-info/entry_points.txt
+[0.903s] writing requirements to ../../build/assets/assets.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/assets/assets.egg-info/top_level.txt
+[0.903s] writing manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+[0.904s] reading manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+[0.904s] writing manifest file '../../build/assets/assets.egg-info/SOURCES.txt'
+[0.904s] running build
+[0.904s] running install
+[0.904s] running install_data
+[0.905s] creating /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+[0.905s] copying share/assets/p1/PF_A1.xml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+[0.905s] copying share/assets/p1/config.yaml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+[0.905s] copying share/assets/p1/PF_A.urdf -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+[0.905s] copying share/assets/p1/PF_A.xml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1
+[0.905s] creating /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.905s] copying share/assets/p1/meshes/foot_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.905s] copying share/assets/p1/meshes/abad_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.908s] copying share/assets/p1/meshes/foot_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.908s] copying share/assets/p1/meshes/abad_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.908s] copying share/assets/p1/meshes/foot_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.908s] copying share/assets/p1/meshes/knee_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.908s] copying share/assets/p1/meshes/base_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.912s] copying share/assets/p1/meshes/abad_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.912s] copying share/assets/p1/meshes/base_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.912s] copying share/assets/p1/meshes/hip_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.912s] copying share/assets/p1/meshes/knee_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.912s] copying share/assets/p1/meshes/foot_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.913s] copying share/assets/p1/meshes/hip_right_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.916s] copying share/assets/p1/meshes/abad_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.919s] copying share/assets/p1/meshes/hip_right_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.919s] copying share/assets/p1/meshes/hip_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.923s] copying share/assets/p1/meshes/knee_left_link.stl -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.923s] copying share/assets/p1/meshes/knee_left_link.STL -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets/p1/meshes
+[0.923s] copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/assets/share/assets
+[0.923s] running install_egg_info
+[0.926s] Copying ../../build/assets/assets.egg-info to /home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages/assets-0.0.0-py3.10.egg-info
+[0.926s] running install_scripts
+[0.937s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/assets/install.log'
+[1.699s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/assets' returned '0': PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/assets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/assets/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assets build --build-base /home/wbb/Bipedal_MPC_Python/build/assets/build install --record /home/wbb/Bipedal_MPC_Python/build/assets/install.log --single-version-externally-managed install_data

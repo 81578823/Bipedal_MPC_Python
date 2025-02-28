@@ -1,0 +1,40 @@
+running egg_info
+creating ../../../build/estimation/estimation.egg-info
+writing ../../../build/estimation/estimation.egg-info/PKG-INFO
+writing dependency_links to ../../../build/estimation/estimation.egg-info/dependency_links.txt
+writing entry points to ../../../build/estimation/estimation.egg-info/entry_points.txt
+writing requirements to ../../../build/estimation/estimation.egg-info/requires.txt
+writing top-level names to ../../../build/estimation/estimation.egg-info/top_level.txt
+writing manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+reading manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+writing manifest file '../../../build/estimation/estimation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wbb/Bipedal_MPC_Python/build/estimation/build
+creating /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib
+creating /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+copying estimation/test.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+copying estimation/test2.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+copying estimation/state_estimation_lkf.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+copying estimation/__init__.py -> /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation
+running install
+running install_lib
+creating /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/test.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/test2.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/state_estimation_lkf.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+copying /home/wbb/Bipedal_MPC_Python/build/estimation/build/lib/estimation/__init__.py -> /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/test.py to test.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/test2.py to test2.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/state_estimation_lkf.py to state_estimation_lkf.cpython-310.pyc
+byte-compiling /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index
+creating /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index/resource_index
+creating /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index/resource_index/packages
+copying resource/estimation -> /home/wbb/Bipedal_MPC_Python/install/estimation/share/ament_index/resource_index/packages
+copying package.xml -> /home/wbb/Bipedal_MPC_Python/install/estimation/share/estimation
+running install_egg_info
+Copying ../../../build/estimation/estimation.egg-info to /home/wbb/Bipedal_MPC_Python/install/estimation/lib/python3.10/site-packages/estimation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/estimation/install.log'

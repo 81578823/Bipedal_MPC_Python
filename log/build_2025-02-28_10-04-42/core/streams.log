@@ -1,0 +1,20 @@
+[0.803s] Invoking command in '/home/wbb/Bipedal_MPC_Python/src/core': PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/wbb/Bipedal_MPC_Python/build/core/build install --record /home/wbb/Bipedal_MPC_Python/build/core/install.log --single-version-externally-managed install_data
+[0.945s] running egg_info
+[0.945s] writing ../../build/core/core.egg-info/PKG-INFO
+[0.946s] writing dependency_links to ../../build/core/core.egg-info/dependency_links.txt
+[0.946s] writing entry points to ../../build/core/core.egg-info/entry_points.txt
+[0.946s] writing requirements to ../../build/core/core.egg-info/requires.txt
+[0.946s] writing top-level names to ../../build/core/core.egg-info/top_level.txt
+[0.948s] reading manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[0.948s] writing manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[0.948s] running build
+[0.948s] running build_py
+[0.949s] running install
+[0.949s] running install_lib
+[0.950s] running install_data
+[0.950s] running install_egg_info
+[0.952s] removing '/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core-0.0.0-py3.10.egg-info' (and everything under it)
+[0.952s] Copying ../../build/core/core.egg-info to /home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages/core-0.0.0-py3.10.egg-info
+[0.952s] running install_scripts
+[0.966s] writing list of installed files to '/home/wbb/Bipedal_MPC_Python/build/core/install.log'
+[0.982s] Invoked command in '/home/wbb/Bipedal_MPC_Python/src/core' returned '0': PYTHONPATH=/home/wbb/Bipedal_MPC_Python/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wbb/Bipedal_MPC_Python/install/core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/wbb/Bipedal_MPC_Python/build/core/build install --record /home/wbb/Bipedal_MPC_Python/build/core/install.log --single-version-externally-managed install_data
