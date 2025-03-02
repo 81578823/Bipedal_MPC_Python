@@ -1,6 +1,8 @@
 # Model Predictive Control for Bipedal Robot in MuJoCo Simulator
 
-![video](./display.gif)
+<div align="center">
+<img src="./display.gif" />
+</div>
 
 # Build Package
 ## Install ROS2
