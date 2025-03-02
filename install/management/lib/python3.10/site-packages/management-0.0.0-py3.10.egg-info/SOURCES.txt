@@ -15,7 +15,6 @@ management/initialization.py
 management/joystick.py
 management/main.py
 management/motion_manager.py
-management/test.py
 test/test.py
 test/test_copyright.py
 test/test_flake8.py

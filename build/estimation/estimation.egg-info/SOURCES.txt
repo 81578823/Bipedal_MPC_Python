@@ -10,8 +10,6 @@ setup.py
 ../../../build/estimation/estimation.egg-info/zip-safe
 estimation/__init__.py
 estimation/state_estimation_lkf.py
-estimation/test.py
-estimation/test2.py
 resource/estimation
 test/test_copyright.py
 test/test_flake8.py

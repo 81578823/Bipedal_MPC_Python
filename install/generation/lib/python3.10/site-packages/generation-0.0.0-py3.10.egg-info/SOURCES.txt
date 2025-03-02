@@ -9,15 +9,9 @@ setup.py
 ../../../build/generation/generation.egg-info/top_level.txt
 ../../../build/generation/generation.egg-info/zip-safe
 generation/__init__.py
-generation/convex_mpc.back.py
-generation/convex_mpc.back2.py
-generation/convex_mpc.back3.py
 generation/convex_mpc.py
 generation/foothold_optimization.py
 generation/pinocchio_interface.py
-generation/test.py
-generation/test2.py
-generation/test3.py
 generation/trajectory_generation.py
 resource/generation
 test/test_copyright.py
