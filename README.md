@@ -47,4 +47,7 @@ ros2 launch management management.launch.py
 ros2 launch sim sim.launch.py 
 ```
 
+## Tips
+The performance really depends on the usage of CPU. Better CPU for better performance. 
+
 
